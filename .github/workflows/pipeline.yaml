@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: ecssfdfeeho "barev dzez"
+        run: echo "barev dzez"
 
   test:
     runs-on: ubuntu-latest
