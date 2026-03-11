@@ -1,0 +1,17 @@
+name: Job Dependency Example
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build step
+        run: echo "barev dzez"
+
+  test:
+    runs-on: ubuntu-latest
+    # needs: build
+    steps:
+      - name: Test step
+        run: pwd
